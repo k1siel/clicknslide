@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click and slide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <script>
+        window.addEventListener("load", function () {
+            createArea.load();
+            createSlider.usableSlider();
+        })
+    </script>
+</head>
+
+<body>
+    <div class="logo"><img id="logo" src="cnslogo.png" alt=""></div>
+
+    <div id="slider">
+        <img id="img1" class="imgslider" src="bg0.jpg" alt="bg">
+        <img id="img2" class="imgslider" src="bg1.jpg" alt="bg2">
+        <img id="img3" class="imgslider" src="bg2.jpg" alt="bg3">
+        <img id="img4" class="imgslider" src="bg0.jpg" alt="bg">
+    </div>
+    <div class="szczały"><button class="slideButton" id="left">left</button><button class="slideButton"
+            id="right">right</button></div>
+    <div id="main"></div>
+</body>
+
+</html>
